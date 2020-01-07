@@ -1,0 +1,19 @@
+    Super Level Maker
+    Notes:
+    g:ground block
+    d:dirt block
+    c:coin block
+    g:ground block
+    l:lava block
+    e:grass block
+    f:finishing block
+    Example of a level
+    1ffffffffffffffffffffffff1
+    2----------------------f2
+    3----------------------f3
+    4----------------------f4
+    5----------------------g5
+    6---------------------gg6
+    7-------------gggggggggg7
+    8------ggggggggggggggggg8 
+    9ggggggggggggggggggggggg9
