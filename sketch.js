@@ -97,7 +97,7 @@ function setup() {
 }
 
 function draw() {
-  if (player.y>400){health=0;}
+  if (player.y>400){health=0;playing=false}
   if (playing == true) {
     if (scroller == true) {
       if (player.x < 50) {
