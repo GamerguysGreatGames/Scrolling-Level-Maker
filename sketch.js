@@ -271,15 +271,7 @@ function imgfind(player, scroll) {
 
 function load() {
   coin = 0;
-  player.destroy();
-  if (level == 2) {
-    player = createSprite(50, 250, 50, 50)
-  }
-  if (level == 3) {
-    player = createSprite(50, 50, 50, 50)
-  }
-  img = loadImage("player.png")
-  player.addImage(img)
+
   f = "";
   l = "";
   l2 = 1;
@@ -378,6 +370,15 @@ function load() {
   } else {
     playing = false
   }
+    player.destroy();
+  if (level == 2) {
+    player = createSprite(50, 250, 50, 50)
+  }
+  if (level == 3) {
+    player = createSprite(50, 50, 50, 50)
+  }
+  img = loadImage("player.png")
+  player.addImage(img)
 }
 function scrolltest(ulook,scroll){
 scroll.visible=true;}
