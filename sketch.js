@@ -154,7 +154,7 @@ function draw() {
     fill(0, 0, 0)
     drawSprites();
     textSize(20)
-    text("Health:" + health + " Coins:" + coins, 50, 50)
+    text("Health:" + health + " Gold Blocks:" + coins, 50, 50)
     scroll.isTouching(ulook,scrolltest)
     scroll.setVisibleEach(false)
 ulook.overlap(scroll,scrolltest)
