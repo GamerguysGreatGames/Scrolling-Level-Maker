@@ -97,7 +97,10 @@ function setup() {
 }
 
 function draw() {
-  if (player.y>400){health=0;playing=false}
+      if (health < 1) {
+      playing = false
+    }
+  if (player.y>400){health=0;}
   if (playing == true) {
     if (scroller == true) {
       if (player.x < 50) {
@@ -152,9 +155,6 @@ function draw() {
     drawSprites();
     textSize(20)
     text("Health:" + health + " Coins:" + coins, 50, 50)
-    if (health < 1) {
-      playing = false
-    }
     scroll.isTouching(ulook,scrolltest)
     scroll.setVisibleEach(false)
 ulook.overlap(scroll,scrolltest)
