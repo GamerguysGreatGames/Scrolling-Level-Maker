@@ -1,6 +1,6 @@
 // make different sprites by using differnt sized images and scaling them to 70 px kay?
 var playing = false
-var coins = 0;
+var coins = 2
 var health = 10;
 var scroller = true;
 var f;
@@ -170,7 +170,7 @@ ulook.y=200
     textSize(20)
     text("Press p to play the 3 test levels", 200, 200)
     text("To play custom levels press m", 200, 250)
-    health = 10;
+    health = 2;
     player.destroy();
     player = createSprite(50, 300, 50, 50)
     img = loadImage("player.png")
