@@ -1,7 +1,7 @@
 // make different sprites by using differnt sized images and scaling them to 70 px kay?
 var playing = false
-var coins = 2
-var health = 10;
+var coins = 0
+var health =2;
 var scroller = true;
 var f;
 var l;
